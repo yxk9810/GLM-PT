@@ -1,0 +1,6 @@
+rouge_chinese
+nltk
+jieba
+datasets
+transformers==4.27.1
+torch
