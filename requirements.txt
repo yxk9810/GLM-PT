@@ -4,3 +4,6 @@ jieba
 datasets
 transformers==4.27.1
 torch
+icetk
+cpm_kernels
+accelerate
