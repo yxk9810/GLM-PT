@@ -2,7 +2,7 @@ rouge_chinese
 nltk
 jieba
 datasets
-transformers==4.27.1
+transformers
 torch
 icetk
 cpm_kernels
