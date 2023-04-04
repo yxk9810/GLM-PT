@@ -329,7 +329,7 @@ def main():
         #     checkpoint = last_checkpoint
         model.gradient_checkpointing_enable()
         model.enable_input_require_grads()
-        train_result = trainer.train(resume_from_checkpoint=checkpoint)
+        train_result = trainer.train(resume_from_checkpoint=False)
         # trainer.save_model()  # Saves the tokenizer too for easy upload
 
         metrics = train_result.metrics
