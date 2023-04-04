@@ -22,6 +22,8 @@ import logging
 import os
 import sys
 import json
+import os
+os.environ["WANDB_DISABLED"] = "true"
 
 import numpy as np
 from datasets import load_dataset
